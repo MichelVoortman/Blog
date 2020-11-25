@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 800px;
+    align-items: center;
+    
+}
+
+.blogpost { 
+    width: 300px; border: 1px solid black;
+    
+}
+
+.een {
+    align-self: flex-start;
+    
+}
+
+.twee {
+    align-self: center;
+    
+}
+
+.drie {
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+.vier {
+    align-self: center;
+    
+}
+
+.vijf {
+    align-self: flex-start;
+    
+}
